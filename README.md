@@ -10,7 +10,7 @@ Anda ingin menjadi orang iseng ? atau anda memiliki mantan yang anda kesal atauu
 ![image](https://user-images.githubusercontent.com/33353823/231848295-b061ae21-b058-4595-89be-364b966896a5.png)
 
 # Instalasi 🚀
-Sudah pasti require Python , install Python terlebih dahulu: Click Disini
+Sudah pasti require Python , install Python terlebih dahulu: [Install Python](https://www.python.org/downloads/)
 
 ```apt-get install git
 apt-get install python
