@@ -3,7 +3,6 @@ from colorama import Fore,Back,init
 from requests import get,post
 from urllib import request
 
-
 def autoketik(s):
     for c in s + "\n":
         sys.stdout.write(c)
