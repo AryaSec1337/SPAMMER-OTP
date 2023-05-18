@@ -38,8 +38,6 @@ BL = Fore.BLACK
 Y = Fore.YELLOW
 
 ip=requests.get('https://api.ipify.org').text
-visitor=request.urlopen('https://api.countapi.xyz/hit/spammer-wa')
-getvisit=json.loads(visitor.read())
 localtime=time.asctime(time.localtime(time.time()))
 
 hijau="\033[1;92m "
@@ -65,7 +63,7 @@ autoketik(f"""
 {putih}[{biru}+{putih}] {ungu}Instagram {putih}: @arryyaa_17
 {W}[{biru}+{W}] Ip Kamu {putih}  :{hijau} {ip}
 {W}[{biru}+{W}] Waktu/Jam {putih}:{hijau} {localtime}
-{W}[{biru}+{W}] Total Run {putih}:{hijau} {getvisit['value']}
+{W}[{biru}+{W}] Total Run {putih}:{hijau}
 """)
 
 print(f"{W}[{R}1{W}]  SPAM WHATSAPP")
@@ -102,7 +100,7 @@ elif pilih == "3":
     print(f"{W}[{R}1{W}]  Mapclub")
     pilih1 = input(f"{W}[{R}• {kuning}•{hijau}•{W}] {biru}Pilih Menu Spam SMS {W}: ")
     if pilih1 == "1":
-        MapClub()
+        print("Sedang Dalam Perkembangan")
 elif pilih == "4":
     print("Email: arya_alfahrezy@wearehackerone.com")
 elif pilih == "5":
